@@ -29,7 +29,7 @@ const UserForm = () => {
 
   return (
     <div className="form-container">
-      <h2>User Info Form</h2>
+      <h2>User Info </h2>
       <form onSubmit={handleSubmit}>
         <input type="text" value={name} placeholder="Name" onChange={e => setName(e.target.value)} required />
         <input type="number" value={age} placeholder="Age" onChange={e => setAge(e.target.value)} required />
